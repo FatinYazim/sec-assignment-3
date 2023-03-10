@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 </title>
+<!-- Word-1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@700&family=Yaldevi:wght@600&display=swap" rel="stylesheet">
+
+<!-- Word-3 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@700&family=Vollkorn&family=Yaldevi:wght@600&display=swap" rel="stylesheet">
+
+<!-- word-4 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<style>
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* how to do margin: https://www.youtube.com/watch?v=NZEz4yNITd8 */
+.parent {
+position: relative;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 200px;
+margin-left: 200px;
+
+height: 842px;
+width: 620px;
+background: #110F57;
+
+}
+
+/*word spacing /letter spacing https://www.youtube.com/shorts/4LpJ8twcU7g */
+
+.word-1 {
+position: absolute;
+
+
+width: 200px;
+height: 33px;
+left: 45px;
+top: 42px;
+
+font-family: 'Yaldevi';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 32px;
+word-spacing: 30px;
+
+color: #FFFFFF;
+
+}
+
+.image-1 {
+position: absolute;
+width: 24px;
+height: 40px;
+left: 120px;
+top: 42px;
+}
+
+.word-2 {
+position: absolute;
+
+
+width: 200px;
+height: 33px;
+left: 220px;
+top: 42px;
+
+font-family: 'Yaldevi';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 32px;
+
+
+color: greenyellow;
+
+}
+
+.word-3 {
+position: absolute;
+width: 413px;
+height: 132px;
+left: 45px;
+top: 145px;
+
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 66px;
+
+color: #00FB82;
+
+}
+
+.word-4 {
+position: absolute;
+width: 329px;
+height: 165px;
+left: 45px;
+top: 308px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+color: rgba(226, 226, 226, 0.7);
+
+}
+
+/* Logo */
+.image-google {
+   
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 45px;
+top: 526px;
+
+background: #FFFFFF;
+border-radius: 50%;
+border: 5px solid white;
+
+}
+
+.image-facebook{
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 95px;
+top: 526px;
+
+background: #FFFFFF;
+border-radius: 50%;
+border: 5px solid white;
+
+
+}
+
+.image-twitter {
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 145px;
+top: 526px;
+
+background: #FFFFFF;
+border-radius: 50%;
+border: 5px solid white;
+
+
+}
+
+.image-linkin {
+position: absolute;
+width: 35px;
+height: 35px;
+left: 195px;
+top: 526px;
+
+background: #FFFFFF;
+border-radius: 50%;
+border: 5px solid white;
+
+}
+
+
+/* border explained : https://www.youtube.com/watch?v=d_3fKSHwq_g */
+/* transform :https://www.youtube.com/watch?v=ypwVbSAAJ68 */
+.line-1 {
+position: absolute;
+width: 88px;
+height: 0px;
+left: 470px;
+top: 0px;
+
+border: 10px solid #00FB82;
+border-radius: 12px;
+transform: rotate(90deg);
+
+}
+
+.line-2 {
+position: absolute;
+width: 290px;
+height: 0px;
+left: 235px;
+top: 0px;
+
+border: 10px solid #FFF500;
+transform: rotate(90deg);
+border-radius: 12px;
+
+}
+
+.line-3 {
+position: absolute;
+width: 250px;
+height: 0px;
+left: 300px;
+top: 0px;
+
+border: 10px solid #00FB82;
+transform: rotate(90deg);
+border-radius: 12px;
+
+}
+
+.line-4 {
+position: absolute;
+width: 200px;
+height: 0px;
+left: 370px;
+top: 0px;
+
+border: 10px solid #FFF500;
+transform: rotate(90deg);
+border-radius: 12px;
+}
+
+
+
+
+.round-shape {
+position: absolute;
+width: 19.87px;
+height: 19.87px;
+left: 500px;
+top: 418.86px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 50px;
+
+
+}
+
+/* round shape kedua  */
+.second {
+left: 45px;
+top: 600px;
+z-index: 2;
+}
+
+.image-last {
+position: absolute;
+height: 350px;
+left: 0px;
+bottom: 0px;
+margin-left: 0px;
+margin-right:0px;
+
+background: none;
+z-index: 1;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<!-- parent -->
+<div class="parent"> 
+
+<!-- child -->
+<a class="word-1">STU IOS </a>
+<img class="image-1" src="file:///C:/Users/User/Desktop/pic%20assignment-3/Logo%20Shapes%2026.png"> 
+<a class="word-2">9 </a>
+<a class="word-3">Work Together </a>
+<a class="word-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </a>
+<img class="image-google" src="file:///C:/Users/User/Desktop/pic%20assignment-3/google.png"> 
+<img class="image-facebook" src="file:///C:/Users/User/Desktop/pic%20assignment-3/facebook.png"> 
+<img class="image-twitter" src="file:///C:/Users/User/Desktop/pic%20assignment-3/twitter.png"> 
+<img class="image-linkin" src="file:///C:/Users/User/Desktop/pic%20assignment-3/linkin.png"> 
+<div class="line-1"></div>
+<div class="line-2"></div>
+<div class="line-3"></div>
+<div class="line-4"></div>
+<div class="round-shape"></div>
+<img class="image-last" src="file:///C:/Users/User/Desktop/pic%20assignment-3/unsplash_g1Kr4Ozfoac.png"> 
+<div class="round-shape second"></div>
+
+</div>
+
+
+    
+</body>
+</html>
+
